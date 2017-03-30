@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/rolrol"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/write"
+            android:id="@+id/write_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginRight="150dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:text="게시글 작성"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:background="@color/rolrol"
+            android:id="@+id/timeline_back_btn2"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="200dp">
+        <EditText
+            android:background="@color/white"
+            android:id="@+id/timeline_edit"
+            android:gravity="center"
+            android:hint="하고 싶은 말을 남겨주세요..."
+            android:layout_width="280dp"
+            android:layout_height="280dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/rolrol"
+        android:layout_width="300dp"
+        android:layout_height="40dp">
+        <ImageButton
+            android:id="@+id/timeline_upload_btn"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@color/rolrol"
+            android:src="@drawable/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/timeline_back_btn"
+            android:textColor="@color/black"
+            android:layout_marginLeft="130dp"
+            android:background="#e2d4d4"
+            android:text="취소"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/timeline_send_btn"
+            android:layout_marginLeft="10dp"
+            android:background="@color/primary"
+            android:text="게시"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
